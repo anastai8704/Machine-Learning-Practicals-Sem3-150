@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load Dataset
-df = pd.read_csv("attendance.csv")
-
+df = pd.read_csv(r"D:\SEM-3 Practicals\Machine-Learning-Practicals-Sem3-150\Pr1\attendance.csv")
 # Display first 5 rows
 print("First 5 Rows:")
 print(df.head())
